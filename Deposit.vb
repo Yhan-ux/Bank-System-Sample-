@@ -5,8 +5,6 @@ Public Class Deposit
 
     Dim dep As New bankclass
 
-    ' Dim adminmain As New LOGIN_Form
-
     Public Shared AdminMain
 
     Private Sub Deposit_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
@@ -95,35 +93,7 @@ Public Class Deposit
 
 
 
-    'Private Sub btndeposit_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
-    '    dep.depAmount = Val(InputBox("How much?"))
-    '    Try
-
-
-
-    '        dep.DepositCount()
-    '        dep.currbalance = txtcurrBal.Text
-    '        txtnewBal.Text = "₱" & CDbl(dep.newbal)
-    '        txtcurrBal.Text = dep.newbal - Val(txtAmount.Text)
-    '        dep.con.Open()
-
-
-    '        Dim str As String = "UPDATE member SET BALANCE='" & txtnewBal.Text & "' WHERE USERNAME='" & AdminMain & "'"
-    '        Dim cmd As OleDbCommand
-    '        cmd = New OleDbCommand(str, dep.con)
-
-    '        If cmd.ExecuteNonQuery Then
-    '            MessageBox.Show("You have already deposit Amount of ₱" & txtAmount.Text & ", Your New Balance Is " & txtnewBal.Text, "Information", MessageBoxButtons.OK, MessageBoxIcon.Information)
-    '        End If
-
-    '        dep.con.Close()
-    '    Catch ex As Exception
-    '        dep.con.Close()
-    '        MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
-    '    End Try
-
-    'End Sub
-
+  
 
   
   
